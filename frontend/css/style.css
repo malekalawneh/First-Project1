@@ -1,0 +1,86 @@
+
+
+#card {
+  height: 150px;
+}
+
+#card {
+   height: 150px;
+}
+body.dark-mode {
+    background-color: #212529 !important;
+    color: #f8f9fa !important;
+}
+
+body.dark-mode .navbar {
+    background-color: #1a1d20 !important;
+}
+
+body.dark-mode .navbar .navbar-brand {
+    color: #f8f9fa !important;
+}
+
+body.dark-mode .card {
+    background-color: #2b3035 !important;
+    color: #f8f9fa !important;
+    border-color: #495057 !important;
+}
+
+body.dark-mode .table {
+    --bs-table-bg: #2b3035;
+    --bs-table-color: #f8f9fa;
+    --bs-table-striped-bg: #343a40;
+    --bs-table-striped-color: #f8f9fa;
+    --bs-table-hover-bg: #3d4349;
+    --bs-table-hover-color: #fff;
+    color: #f8f9fa !important;
+}
+
+body.dark-mode .table thead tr th {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #343a40 !important;
+    color: #fff !important;
+    border-color: #6c757d !important;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #adb5bd !important;
+}
+
+body.dark-mode .form-select option {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .form-select {
+    --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+}
+
+body.dark-mode .form-label {
+    color: #f8f9fa !important;
+}
+
+body.dark-mode .modal-content {
+    background-color: #2b3035 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-footer {
+    border-color: #495057 !important;
+}
+
+body.dark-mode .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+body.dark-mode .text-muted,
+body.dark-mode .text-secondary,
+body.dark-mode #highestTitle {
+    color: #adb5bd !important;
+}
