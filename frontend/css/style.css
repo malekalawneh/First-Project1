@@ -1,5 +1,25 @@
 
 
+#summaryCardsContainer {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.5rem !important;
+}
+
+@media (max-width: 768px) {
+    #summaryCardsContainer {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+#mainNavbar .container-fluid {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+
 #card {
   height: 150px;
 }
